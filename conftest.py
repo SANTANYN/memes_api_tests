@@ -10,7 +10,7 @@ from endpoint.get_token_status import GetAuthTokenStatus
 from data.api_json import ApiJson
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture(scope='session')
 def login(auth_api):
     payload = ApiJson.auth_api_json()
     auth_api.auth_request_endpoint(payload)
