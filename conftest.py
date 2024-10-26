@@ -6,7 +6,6 @@ from endpoint.post_meme import PostMeme
 from endpoint.delete_memes import DeleteMemeById
 from endpoint.update_meme import PutMeme
 from endpoint.get_token_status import GetAuthTokenStatus
-
 from data.api_json import ApiJson
 
 
